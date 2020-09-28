@@ -1,0 +1,108 @@
+
+ 
+<body>
+  
+  <header class="header">
+    <%=image_tag "TECHCAMPLOGO.png", class: "logo"%>
+    <h1 class="title">TECH CAMP 東京大手町校</h1>
+  </header>
+  <section class="photo">
+    <div class="photo_introduction">
+      <div class="slick1">
+        <div><%= image_tag "room.jpg"%></div>
+        <div><%= image_tag "team.JPG"%></div>
+    </div>
+    </div>
+  </section>
+  <section class="about">
+    <h2 class="about-consept">ぜひ一度、教室もご利用ください。</h2>
+    
+    <h3 class="about-title">教室環境</h3>
+    <p class="about-text">常にジャズ、クラシック等のBGMが流れる教室には、<br>
+    座り心地の良い椅子が設置された通常テーブル席の他にも、<br>
+    カウンター席、掘りごたつ席なども用意され、<br>
+    皆さんが学習に集中できる空間が整っております。<br><br><br></p>
+
+    <h3 class="about-title">教室メンター</h3>
+    <p class="about-text">教室には1~2人のメンターが常駐しており、<br>
+      面と向かってメンターに質問をすることができます。<br>
+    「疑問をうまく言葉にできない。」「こんなこと聞いていいのかな。」<br>
+    このようなご心配は、一切いりません。<br>
+    教室にご来校された際は、ぜひお気軽にご質問ください。<br></p>
+
+    
+
+  </section>
+  <hr class="section-borer">
+  <section class="member">
+    <h2 class="section-title"><span>MENTOR</span></h2>
+    <div class="member_card">
+      <%= image_tag "arai.JPG", class: "member-photo"%>
+      <p class="member-introduction">新井麻未です。</br>もとTECH CAMP受講生です。</br>何でも質問してください！</p>
+
+    </div>
+    <hr class="border">
+    <div class="member_card">
+      <%= image_tag "takahashi.JPG", class: "member-photo"%>
+      <p class="member-introduction">新井麻未です。</br>もとTECH CAMP受講生です。</br>何でも質問してください！</p>
+
+    </div>
+    <hr class="border">
+    <div class="member_card">
+      <%= image_tag "tanaka.JPG", class: "member-photo"%>
+      <p class="member-introduction">新井麻未です。</br>もとTECH CAMP受講生です。</br>何でも質問してください！</p>
+
+    </div>
+    <hr class="border">
+    <div class="member_card">
+      <%= image_tag "fujishima.JPG", class: "member-photo" %>
+      <p class="member-introduction">新井麻未です。</br>もとTECH CAMP受講生です。</br>何でも質問してください！</p>
+
+    </div>
+  </section>
+
+  <section class="guide">
+    <h2 class="section-title">ご利用案内</h2>
+    <div class="guide-table">
+      <div class = "guide-text"><h3>利用可能時間</h3>
+        平日 16:00~22:00<br>
+        土日・祝 13:00~19:00<br><br>
+
+        ※ 現在、奇数期・偶数期でご利用曜日を分けさせていただいております。<br>
+        奇数期 月・水・土／偶数期 火・木・日
+        <a href ="https://di-v.co.jp/press/20200530-2/">(詳細はこちら)</a>
+      </div>
+    </div>
+    <div class="guide-table">
+      <div class = "guide-text"><h3>所在地</h3>
+          東京都千代田区大手町一丁目3番2番大手町カンファレンスセンターB1F<br>
+          東京メトロ 大手町駅C2b出口直結
+      </div>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <p class="footer_text">@otemachi 2020.9</p>
+  </footer>
+
+
+  <%# <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./slick/slick.min.js"></script> %>
+  
+  <script type="text/javascript">
+    $(function(){
+      $('.slick1').slick({
+        autoplay: true,
+        dots: true,
+  // 以下、操作後に止まってしまう仕様の対策
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+      });
+    });
+  </script>
+
+
+</body>
+ 
+</html>

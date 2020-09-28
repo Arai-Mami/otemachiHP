@@ -1,0 +1,125 @@
+.header{
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+}
+
+.logo{
+  height: 78px;
+  width: 78px;
+  margin: 0 20px;
+}
+
+.photo{
+  background-color: #333;
+}
+
+.slick1{
+  height: calc(100vh - 100px);
+  width: auto;
+}
+
+.slick1{
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+.slick1 img{
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.poto-text{
+  color: #fff;
+  font-size: 24px;
+  line-height: 2.5em;
+}
+
+.about{
+  background-color: #fff;
+  min-height: 100vh;
+  text-align:center;
+  padding: 100px;
+}
+
+.about-title{
+  margin-bottom: 30px;
+}
+
+.about-consept{
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.about-text{
+  line-height: 3.5em;
+  font-size: 15px;
+}
+
+.section-borer{
+  border-width: 0.5px;
+  border-color: #b3b3b3;
+  border-style: solid;
+}
+
+.member{
+  background-color: #fff;
+  padding: 50px;
+  min-width: 100vh;
+
+}
+
+.section-title{
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-title span{
+  border-bottom:double;
+}
+
+.member_card{
+  height: 350px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.border{
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: gray;
+}
+
+.member-photo{
+  height: 250px;
+  width: auto;
+  position: relative;
+  margin-right: 50px;
+}
+
+.member-introduction{
+  color: #000;
+}
+
+.guide-table{
+  padding: 0 100px 50px 100px;
+}
+
+.guide-text{
+}
+
+.footer{
+  background-color: #fff;
+  height: 50px;
+}
+
+.footer_text{
+  text-align: center;
+}
+
